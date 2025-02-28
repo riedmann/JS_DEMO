@@ -1,0 +1,48 @@
+<weatherData>
+    <location>
+        <city name="xx">Vienna</city>
+        <country>Austria</country>
+    </location>
+    
+    <weather>
+        <day>
+            <date>2024-01-31</date>
+            <temperature>
+                <min>-2</min>
+                <max>5</max>
+            </temperature>
+            <humidity>80</humidity>
+            <wind>
+                <speed>10</speed>
+                <direction>NW</direction>
+            </wind>
+            <condition>Cloudy</condition>
+        </day>
+        <day>
+            <date>2024-02-01</date>
+            <temperature>
+                <min>0</min>
+                <max>7</max>
+            </temperature>
+            <humidity>75</humidity>
+            <wind>
+                <speed>12</speed>
+                <direction>NE</direction>
+            </wind>
+            <condition>Partly Cloudy</condition>
+        </day>
+        <day>
+            <date>2024-02-02</date>
+            <temperature>
+                <min>1</min>
+                <max>9</max>
+            </temperature>
+            <humidity>70</humidity>
+            <wind>
+                <speed>8</speed>
+                <direction>E</direction>
+            </wind>
+            <condition>Sunny</condition>
+        </day>
+    </weather>
+</weatherData>

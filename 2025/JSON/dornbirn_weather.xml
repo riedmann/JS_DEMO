@@ -1,0 +1,60 @@
+<weather>
+    <location>Dornbirn, Austria</location>
+    <current_conditions>
+        <temperature_celsius>0</temperature_celsius>
+        <description>Partly sunny</description>
+        <humidity>80</humidity>
+        <wind_speed_kmh>10</wind_speed_kmh>
+    </current_conditions>
+    <forecast>
+        <forecast>
+            <date>2025-02-06</date>
+            <high_temp_celsius>4</high_temp_celsius>
+            <low_temp_celsius>-2</low_temp_celsius>
+            <description>Partly cloudy and colder</description>
+            <precipitation_mm>1</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-07</date>
+            <high_temp_celsius>5</high_temp_celsius>
+            <low_temp_celsius>-2</low_temp_celsius>
+            <description>Cloudy in the morning, sunny in the afternoon</description>
+            <precipitation_mm>0</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-08</date>
+            <high_temp_celsius>7</high_temp_celsius>
+            <low_temp_celsius>-1</low_temp_celsius>
+            <description>Increasing cloudiness</description>
+            <precipitation_mm>2</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-09</date>
+            <high_temp_celsius>5</high_temp_celsius>
+            <low_temp_celsius>0</low_temp_celsius>
+            <description>Sunny throughout the day</description>
+            <precipitation_mm>0</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-10</date>
+            <high_temp_celsius>5</high_temp_celsius>
+            <low_temp_celsius>0</low_temp_celsius>
+            <description>Low clouds</description>
+            <precipitation_mm>1</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-11</date>
+            <high_temp_celsius>5</high_temp_celsius>
+            <low_temp_celsius>0</low_temp_celsius>
+            <description>Clouds and sun</description>
+            <precipitation_mm>0</precipitation_mm>
+        </forecast>
+        <forecast>
+            <date>2025-02-12</date>
+            <high_temp_celsius>6</high_temp_celsius>
+            <low_temp_celsius>-2</low_temp_celsius>
+            <description>Sunny with some clouds</description>
+            <precipitation_mm>0</precipitation_mm>
+        </forecast>
+    </forecast>
+</weather>

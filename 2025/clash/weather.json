@@ -1,0 +1,47 @@
+{
+  "location": {
+    "city": "Vienna",
+    "country": "Austria"
+  },
+  "weather": [
+    {
+      "date": "2024-01-31",
+      "temperature": {
+        "min": -2,
+        "max": 5
+      },
+      "humidity": 80,
+      "wind": {
+        "speed": 10,
+        "direction": "NW"
+      },
+      "condition": "Cloudy"
+    },
+    {
+      "date": "2024-02-01",
+      "temperature": {
+        "min": 0,
+        "max": 7
+      },
+      "humidity": 75,
+      "wind": {
+        "speed": 12,
+        "direction": "NE"
+      },
+      "condition": "Partly Cloudy"
+    },
+    {
+      "date": "2024-02-02",
+      "temperature": {
+        "min": 1,
+        "max": 9
+      },
+      "humidity": 70,
+      "wind": {
+        "speed": 8,
+        "direction": "E"
+      },
+      "condition": "Sunny"
+    }
+  ]
+}
