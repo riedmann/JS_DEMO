@@ -1,8 +1,5 @@
-let number = 845948;
-let divided = number / 100000;
+let a = 7;
+let b = 8;
+let result = a + b;
 
-console.log(divided);
-let num = Math.floor(divided);
-
-number = number - num * 100000;
-console.log(number);
+console.log("Gib die erste Zahl ein");
