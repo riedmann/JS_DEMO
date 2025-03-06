@@ -2,9 +2,9 @@
 import { Car } from "@/lib/types/types";
 import React, { useState } from "react";
 
-type Props = { car: Car };
+type Props = { car: Car; handleChange: Function };
 
-export default function Card({ car }: Props) {
+export default function Card({ car, handleChange }: Props) {
   const [isActive, setIsActive] = useState(false);
 
   console.log("acive above", isActive);
@@ -16,6 +16,7 @@ export default function Card({ car }: Props) {
       }`}
       onClick={() => {
         setIsActive(!isActive);
+        handleChange(car);
         console.log("Is Active", isActive);
       }}
     >
