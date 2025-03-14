@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useBearStore } from "../utils/store/useBearStore";
 
 type Props = { title: string; description: string };
 
 export default function Button({ title, description }: Props) {
+  const bears = useBearStore((state: any) => state.bears);
   const [amountOfClicks, setAmountOfClicks] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,7 +21,11 @@ export default function Button({ title, description }: Props) {
         setIsOpen(!isOpen);
       }}
     >
-      <div className="font-bold "> {title}</div>
+      <div className="font-bold ">
+        {" "}
+        {title}
+        {bears}
+      </div>
       <img src={"https://picsum.photos/200/300?random=" + random} />
 
       <p>Amount of clicks:{amountOfClicks}</p>

@@ -1,17 +1,18 @@
 import "./App.css";
+import BearCounter from "./components/bears/BearCounter";
+import BearIncreaser from "./components/bears/BearIncreaser";
 import Button from "./components/Button";
 
 function App() {
   return (
     <>
       <h1>Hallo Du</h1>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <Button title="Save" description=" afjkadslf jdasklfasdj dkaslf" />
-        <Button title="Save" description=" afjkadslf jdasklfasdj dkaslf" />
-        <Button title="Save" description=" afjkadslf jdasklfasdj dkaslf" />
-        <Button title="Save" description=" afjkadslf jdasklfasdj dkaslf" />
-        <Button title="Save" description=" afjkadslf jdasklfasdj dkaslf" />
-      </div>
+      <Button description="fjdaskl" title="jfdks" />
+
+      <BearCounter />
+      <BearCounter />
+      <BearCounter />
+      <BearIncreaser />
     </>
   );
 }
